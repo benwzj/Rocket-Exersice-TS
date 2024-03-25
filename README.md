@@ -1,46 +1,32 @@
-# Getting Started with Create React App
+## Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This React App can fetch rocket launchs data from Data Server, filter and display launchs. It try to meet all the requirements which from 'exercise-requirement' folder.
 
-## Available Scripts
+To run this app, you need to start API server and this App.
 
-In the project directory, you can run:
+You can get more and updated information from [spacexpatchlist](https://spacexpatchlist.space) if you are interested on rocket launchs.
 
+## API Server
+
+Need to start API server that provides data.
+
+To start the server, use a separate terminal window with the following:
+
+1. Change into the `server` directory and run `npm install`
+2. Start the server via `npm run start`
+
+The following 2 endpoints will now be available.
+
+| Endpoint                             | Description                       |
+| ------------------------------------ | --------------------------------- |
+| http://localhost:8001/launches       | returns an array of launch data   |
+| http://localhost:8001/launchpads     | returns launchpads                |
+
+## Run this App
+### `npm install`
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
