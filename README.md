@@ -1,11 +1,13 @@
 ## Overview
 
-This React App is a exercise app from one interview. The requirement is [here](./exercise-requirement/designs/Functional Specification.pdf).
-It can fetch rocket launchs data from Data Server, filter and display launchs. It try to meet all the requirements which from 'exercise-requirement' folder.
+This React App is a exercise app from one interview.
+It can fetch rocket launchs data from Data Server, filter and display launchs. 
+The detail requirements are located at 'exercise-requirement' folder.
 
+The Main Page like this: 
 ![Main Page](./exercise-requirement/designs/Design.png)
 
-To run this app, you need to start API server and this App.
+In order to run this app properly, you need to run API server.
 
 You can get more and updated information from [spacexpatchlist](https://spacexpatchlist.space) if you are interested on rocket launchs.
 
